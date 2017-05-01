@@ -1,0 +1,45 @@
+
+* {margin: 0;}
+main {position: relative;}
+
+
+.background {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  }
+
+.background img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  }
+
+
+#sortable-1{
+            list-style: none;
+            }
+
+.shoe-grid {max-width: 1000px; margin-right: auto; margin-left: auto;}
+
+
+
+ul li {
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+
+
+
+nav {background-color: #efbc44; opacity: .7; padding:15px; margin-bottom:20px; position: relative;
+text-align: center;}
+h1 {font-size:42px; padding-top:10px; font-family: 'Redressed', cursive; line-height: 90%; padding-bottom: 15px;}
+h2 {font-size:16px;font-family: 'Raleway';} 
