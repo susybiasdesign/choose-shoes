@@ -41,5 +41,34 @@ ul li {
 
 nav {background-color: #efbc44; opacity: .7; padding:15px; margin-bottom:20px; position: relative;
 text-align: center;}
-h1 {font-size:42px; padding-top:10px; font-family: 'Redressed', cursive; line-height: 90%; padding-bottom: 15px;}
-h2 {font-size:16px;font-family: 'Raleway';} 
+h1 {font-size:44px; padding-top:10px; font-family: 'Sacramento', cursive; line-height: 90%; padding:10px;}
+h2 {font-size:16px;font-family: 'Raleway'; padding: 0px 20px;}
+
+
+
+/* Media Queries */
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+@media only screen and (max-width: 620px) 
+{img {width: 100px; height: auto;}}
+@media only screen and (max-width: 400px) 
+{img {width: 80px; height: auto;}}
+
+
